@@ -1,0 +1,165 @@
+body{
+    width: 450px;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+
+.firstboxes {
+  text-align: center;
+  background: url(../images/banner.jpg) no-repeat fixed center center;
+  width: 450px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.firstboxes h1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #25a2c3;
+    padding: 10px; 0;
+    font-size: 1.5em;
+}
+
+.firstboxes p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.firstboxes button {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: #f04c2f;
+    border-radius: 5px;
+    border: 1px;
+    margin: 10px; 0;
+    width: 120px;
+    height: 40px;
+}
+
+.secondbox{
+    margin: 20px;
+    text-align: center;
+}
+
+.secondbox h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: #25a2c3;
+    padding: 30px; 0;
+}
+
+.secondbox p {
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.thirdbox{
+    text-align: center;
+}
+
+#notebook{
+    border-radius: 50%;
+}
+
+.thirdbox h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: #25a2c3;
+    padding: 30px; 0;
+}
+
+.thirdbox p {
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.guarantee {
+    background-color: #f04c2f;
+    text-align: center;
+    width: 450px;
+    margin:  auto;
+    color: white;
+
+
+}
+
+.guarantee h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5em;
+    padding: 40px;
+}
+
+.guarantee p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+}
+
+.fourtbox {
+    text-align: center;
+    padding:30px;
+   
+}
+
+.fourtbox img {
+margin-top: 70px;    
+width: 100%;
+}
+
+.fourtbox h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: #25a2c3;
+    padding: 15px; 0;
+}
+
+.fourtbox p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+
+}
+
+

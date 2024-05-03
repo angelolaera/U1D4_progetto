@@ -12,7 +12,7 @@ header {
   text-align: center;
   background: url(../images/banner.jpg) no-repeat fixed center center;
   width: 450px;
-  height: 500px;
+  height: 300px;
   margin: 0 auto;
 }
 
@@ -162,4 +162,27 @@ width: 100%;
 
 }
 
+footer {
+background-color:#25a2c3;
+color: white;
+text-align: center;
+height: 150px;
+}
 
+footer h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}

@@ -12,7 +12,8 @@ header {
 
 .firstboxes {
   text-align: center;
-  background: url(../images/banner.jpg) no-repeat fixed center center;
+  background: url(../images/banner.jpg);
+  background-size: cover;
   width: 450px; 
   margin: 0 auto;
   

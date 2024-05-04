@@ -6,14 +6,17 @@ header {
     background-color: black;
     text-align: center;
     margin: auto;
+    padding: 15px;
 }
+
 
 .firstboxes {
   text-align: center;
   background: url(../images/banner.jpg) no-repeat fixed center center;
-  width: 450px;
-  height: 300px;
+  width: 450px; 
   margin: 0 auto;
+  
+
 }
 
 .firstboxes h1 {
@@ -24,6 +27,7 @@ header {
     color: #25a2c3;
     padding: 10px; 0;
     font-size: 1.5em;
+
 }
 
 .firstboxes p {
@@ -37,7 +41,7 @@ header {
     margin: auto;
 }
 
-.firstboxes button {
+ .firstboxes button {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -49,6 +53,7 @@ header {
     margin: 10px; 0;
     width: 120px;
     height: 40px;
+    cursor:pointer;
 }
 
 .secondbox{
@@ -62,7 +67,7 @@ header {
     font-weight: 900;
     font-style: normal;
     color: #25a2c3;
-    padding: 30px; 0;
+    padding: 10px; 0;
 }
 
 .secondbox p {
@@ -83,6 +88,7 @@ header {
 
 #notebook{
     border-radius: 50%;
+    margin-bottom: 1.5em;
 }
 
 .thirdbox h2 {
@@ -91,7 +97,7 @@ header {
     font-weight: 900;
     font-style: normal;
     color: #25a2c3;
-    padding: 30px; 0;
+    padding: 10px; 0;
 }
 
 .thirdbox p {
@@ -112,6 +118,7 @@ header {
     width: 450px;
     margin:  auto;
     color: white;
+    margin-top: 1.5em;
 
 
 }
@@ -136,11 +143,14 @@ header {
 .fourtbox {
     text-align: center;
     padding:30px;
-   
+   margin: 1.5em;
 }
 
-.fourtbox img {
-margin-top: 30px;    
+.boxframe {
+    border: 1px solid lightgray;
+}
+
+.fourtbox img {  
 width: 100%;
 }
 
@@ -166,23 +176,28 @@ footer {
 background-color:#25a2c3;
 color: white;
 text-align: center;
-height: 150px;
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+padding: 10px 0;
+
 }
 
 footer h2 {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
     padding: 5px;
     font-size: 1.5em;
     margin-bottom: 15px;
 }
 
 footer p {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-
+    padding-left: 1em;
 }
+
+.contatti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+

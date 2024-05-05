@@ -49,3 +49,104 @@ h1{
     cursor: pointer;
 }
 
+.notebook-container{
+    display:flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 100px;
+}
+
+.notebook{
+    width: 42%;
+    text-align: center;
+}
+
+.notebook img{
+    border-radius: 50%;
+}
+
+.paragraph-notebook{
+    width: 42%;
+}
+
+
+.paragraph-notebook h2{
+    color: #25a2c3;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    font-weight:500;
+    width: 50%;
+}
+
+.paragraph-notebook p{
+    padding-bottom: 20px;
+    width: 60%;
+}
+
+.redbox{
+    background-color: #f04c2f;
+    color: white;
+    line-height: 2em;
+    text-align: center;
+    padding: 3%;
+}
+
+.redbox h2{
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    font-weight:500;
+    text-align: center;
+}
+
+.card {
+    width: 400vh;
+    height: auto;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 0.5px;
+    margin: 50px;      
+}
+
+.card-text{
+text-align: center;
+padding: 15px;
+}
+
+.card-text h2{
+    font-size: 1.3em;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer {
+    background-color:#25a2c3;
+    color: white;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px 0;
+    text-align: center;
+     }
+    
+     .footer-box{
+        
+     }
+    
+     .contatti{
+        display: flex;
+        justify-content: center;
+        line-height: 2em;
+     }
+
+     .contatti ion-icon{
+        padding-top: 8px;
+        padding-right: 8px;
+     }
